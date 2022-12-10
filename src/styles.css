@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.active-link{
+  color:red;
+  background-color:red;
+
+}
+.popup{
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  border: solid 2px blue;
+  padding: 20px;
+  box-shadow: 4px 4px;
+}
+.hidden{
+  display:none;
+}
+
+.exit-button{
+  text-align:left;
+  font-size:24px;
+}
